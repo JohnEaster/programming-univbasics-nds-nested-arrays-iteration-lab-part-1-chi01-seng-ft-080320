@@ -5,6 +5,7 @@ def find_even_values(src = [[1, 2, 3], [4, 5, 6], [7, 8, 9]])
     while element_index < src[row_index].count do
       if src[row_index][element_index] % 2 == 0
         p src[row_index][element_index]
+      end
       element_index += 1
     end
     row_index += 1
